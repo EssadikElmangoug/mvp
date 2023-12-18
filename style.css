@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FBF6EE;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.hero .logo-header {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+}
+
+.hero .logo-header img {
+    width: 4vw;
+}
+
+.hero .logo-header h1 {
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+.hero .logo-header h1 span {
+    color: #65B741;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: 300;
+    margin: 0 5vw;
+    color: #6c6c6c;
+}
+
+.hero button {
+    border: none;
+    background-color: #C1F2B0;
+    padding: 0.5vw 1vw;
+    border-radius: .5rem;
+    font-size: 1.2vw;
+}
+
+.hero button:hover {
+    cursor: pointer;
+    background-color: #65B741;
+    color: #FBF6EE;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table table tr th {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.table table tr th:hover {
+    cursor: pointer;
+}
+
+.table table tr th img {
+    width: 1vw;
+    margin: 0 1vw;
+}
+
+.table table tr td {
+    font-size: 0.9vw;
+    font-weight: 400;
+}
